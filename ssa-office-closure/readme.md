@@ -55,7 +55,7 @@ COPY (
    AND mode = 'car'
    AND year = '2024'
    AND geography = 'tract'
- ) TO './data/ssa_times.parquet' (FORMAT PARQUET);
+ ) TO './data/ssa_times.parquet' (FORMAT PARQUET, COMPRESSION brotli);
  ```
 
 You can load the data from the generated parquet file using the following command:
