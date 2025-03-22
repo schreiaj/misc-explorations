@@ -5,6 +5,8 @@ This was an exploration of the impact the proposed SSA offices would have on fol
 ## Visualization
 ![image](./static/images/drive-time-increases.png)
 
+[Link to live Tableau visualization](https://public.tableau.com/app/profile/schreiaj/viz/SSAClosures/ProposedClosuresAPNewsListViewbyIncreaseHouseholds)
+
 ## Bottom Line
 If you just want the data, the geojson file is available at `./data/ssa_times.geojson` and the population data is available at `./data/ssa-populations.csv`. The rest of this document is to replicate the process. 
 
