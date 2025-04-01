@@ -165,3 +165,11 @@ If you are trying to figure out a "better" set of offices to close I've included
 Keep in mind, it will take a while to execute as it is computing the increase in drive times for each and figuring out which ones to close. 
 
 There is also a python notebook to generate maps locally rather than relying on Tableau. Just start jupyter (`python -m jupyter lab`) in this folder, navigate to `notebooks` directory and it will be named mapping.
+
+Example Output:
+
+DOGE Planned SSA Office Closure
+![image](./static/images/doge-planned.png) 
+
+Optimized Closures
+![image](./static/images/optimized-25.png)
