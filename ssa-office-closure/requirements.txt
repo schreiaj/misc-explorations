@@ -1,0 +1,9 @@
+deap==1.4.2
+duckdb==1.2.1
+numpy==2.2.4
+pandas==2.2.3
+tqdm==4.67.1
+lonboard==0.10.4
+jupyterlab==4.3.6
+matplotlib==3.10.1
+pandas==2.2.3
