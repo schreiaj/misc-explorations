@@ -153,3 +153,15 @@ ORDER BY
 ```
 
 With that you'll have the geojson file (`./data/ssa_times.geojson`) and the population data (`./data/ssa-populations.csv`) used to generate the Tableau visualization. 
+
+## Experiments
+
+### Optimization Experiment
+
+If you are trying to figure out a "better" set of offices to close I've included a script (`src/evaluate_closures.py`) that can minimize the average commute time increase. It can be run with
+
+`python src/evaluate_closures.py data/ssa_times.parquet --num-closures 25 --population-size 100 --generations 20 --mutation-rate 0.1 --output ./data/optimized.parquet`
+
+Keep in mind, it will take a while to execute as it is computing the increase in drive times for each and figuring out which ones to close. 
+
+There is also a python notebook to generate maps locally rather than relying on Tableau. Just start jupyter (`python -m jupyter lab`) in this folder, navigate to `notebooks` directory and it will be named mapping.
